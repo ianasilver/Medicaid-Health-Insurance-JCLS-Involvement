@@ -1,0 +1,418 @@
+                           Df     Sum Sq     Mean Sq  F value          Pr(>F)    
+as.factor(Classification)   3  2.2809775 0.760325833 14.56354 0.0000000051322 ***
+Residuals                 396 20.6741647 0.052207487                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2003), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.09320  0.00983255440077 0.176567445599 0.021455466635
+3-1 0.16215  0.07878255440077 0.245517445599 0.000004703754
+4-1 0.19805  0.11468255440077 0.281417445599 0.000000012793
+3-2 0.06895 -0.01441744559923 0.152317445599 0.144230169577
+4-2 0.10485  0.02148255440077 0.188217445599 0.006960291904
+4-3 0.03590 -0.04746744559923 0.119267445599 0.682971818488
+
+                           Df     Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  2.1228939 0.707631300 13.75459 0.000000014982 ***
+Residuals                 396 20.3729787 0.051446916                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2004), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08783  0.00507204041759 0.170587959582 0.032607724725
+3-1 0.15537  0.07261204041759 0.238127959582 0.000010881400
+4-1 0.19116  0.10840204041759 0.273917959582 0.000000033534
+3-2 0.06754 -0.01521795958241 0.150297959582 0.153080140699
+4-2 0.10333  0.02057204041759 0.186087959582 0.007519684822
+4-3 0.03579 -0.04696795958241 0.118547959582 0.680036023771
+
+                           Df      Sum Sq     Mean Sq  F value        Pr(>F)    
+as.factor(Classification)   3  2.02576612 0.675255373 13.43026 0.00000002305 ***
+Residuals                 396 19.91033904 0.050278634                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2005), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08768  0.00586709061895 0.169492909381 0.030240936430
+3-1 0.15494  0.07312709061895 0.236752909381 0.000008895096
+4-1 0.18534  0.10352709061895 0.267152909381 0.000000063533
+3-2 0.06726 -0.01455290938105 0.149072909381 0.148176990919
+4-2 0.09766  0.01584709061895 0.179472909381 0.011845196364
+4-3 0.03040 -0.05141290938105 0.112212909381 0.772971120658
+
+                           Df      Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.91700493 0.639001643 13.42999 0.000000023058 ***
+Residuals                 396 18.84176405 0.047580212                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2006), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08373  0.00414278827144 0.163317211729 0.034836080752
+3-1 0.14745  0.06786278827144 0.227037211729 0.000014694550
+4-1 0.18183  0.10224278827144 0.261417211729 0.000000048235
+3-2 0.06372 -0.01586721172856 0.143307211729 0.166273708209
+4-2 0.09810  0.01851278827144 0.177687211729 0.008600426457
+4-3 0.03438 -0.04520721172856 0.113967211729 0.680812691609
+
+                           Df     Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.9468387 0.648946233 13.35484 0.000000025481 ***
+Residuals                 396 19.2426603 0.048592577                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2007), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08367  0.00324055610635 0.164099443894 0.037863643859
+3-1 0.15049  0.07006055610635 0.230919443894 0.000011754158
+4-1 0.18196  0.10153055610635 0.262389443894 0.000000066362
+3-2 0.06682 -0.01360944389365 0.147249443894 0.141304489635
+4-2 0.09829  0.01786055610635 0.178719443894 0.009389173069
+4-3 0.03147 -0.04895944389365 0.111899443894 0.743977029388
+
+                           Df      Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.89817631 0.632725436 13.40038 0.000000023984 ***
+Residuals                 396 18.69792207 0.047216975                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2008), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08218  0.00289716303597 0.161462836964 0.038874731511
+3-1 0.14904  0.06975716303597 0.228322836964 0.000010560289
+4-1 0.17929  0.10000716303597 0.258572836964 0.000000067274
+3-2 0.06686 -0.01242283696403 0.146142836964 0.131807121274
+4-2 0.09711  0.01782716303597 0.176392836964 0.009174339963
+4-3 0.03025 -0.04903283696403 0.109532836964 0.758449269484
+
+                           Df      Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.87559444 0.625198147 13.28665 0.000000027901 ***
+Residuals                 396 18.63362156 0.047054600                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2009), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08246  0.00331360379166 0.161606396208 0.037445310164
+3-1 0.14452  0.06537360379166 0.223666396208 0.000020251178
+4-1 0.18050  0.10135360379166 0.259646396208 0.000000051143
+3-2 0.06206 -0.01708639620834 0.141206396208 0.181234069020
+4-2 0.09804  0.01889360379166 0.177186396208 0.008171557786
+4-3 0.03598 -0.04316639620834 0.115126396208 0.644360125730
+
+                           Df      Sum Sq     Mean Sq F value         Pr(>F)    
+as.factor(Classification)   3  1.93055499 0.643518329 13.1554 0.000000033226 ***
+Residuals                 396 19.37099979 0.048916666                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2010), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.08316  0.00246278856202 0.163857211438 0.040547785492
+3-1 0.14878  0.06808278856202 0.229477211438 0.000016379926
+4-1 0.18179  0.10109278856202 0.262487211438 0.000000076085
+3-2 0.06562 -0.01507721143798 0.146317211438 0.155533793639
+4-2 0.09863  0.01793278856202 0.179327211438 0.009376868368
+4-3 0.03301 -0.04768721143798 0.113707211438 0.716847156222
+
+                           Df      Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.86812249 0.622707496 12.97935 0.000000042005 ***
+Residuals                 396 18.99880109 0.047976770                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2011), ])
+
+$`as.factor(Classification)`
+       diff                lwr            upr          p adj
+2-1 0.08069  0.000771815901183 0.160608184099 0.046825679077
+3-1 0.14687  0.066951815901183 0.226788184099 0.000017589541
+4-1 0.17823  0.098311815901183 0.258148184099 0.000000104710
+3-2 0.06618 -0.013738184098817 0.146098184099 0.143413241506
+4-2 0.09754  0.017621815901183 0.177458184099 0.009511777173
+4-3 0.03136 -0.048558184098817 0.111278184099 0.742283331179
+
+                           Df      Sum Sq     Mean Sq  F value         Pr(>F)    
+as.factor(Classification)   3  1.62032754 0.540109180 12.53864 0.000000075617 ***
+Residuals                 396 17.05792922 0.043075579                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2012), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.07335 -0.00237611268223 0.149076112682 0.061590786297
+3-1 0.13464  0.05891388731777 0.210366112682 0.000035686498
+4-1 0.16673  0.09100388731777 0.242456112682 0.000000155889
+3-2 0.06129 -0.01443611268223 0.137016112682 0.158734261615
+4-2 0.09338  0.01765388731777 0.169106112682 0.008563271000
+4-3 0.03209 -0.04363611268223 0.107816112682 0.693849792853
+
+                           Df      Sum Sq     Mean Sq  F value        Pr(>F)    
+as.factor(Classification)   3  1.40245953 0.467486509 12.06885 0.00000014171 ***
+Residuals                 396 15.33904767 0.038734969                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2013), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.07019 -0.00161946777583 0.141999467776 0.058124560474
+3-1 0.12408  0.05227053222417 0.195889467776 0.000063568003
+4-1 0.15628  0.08447053222417 0.228089467776 0.000000221846
+3-2 0.05389 -0.01791946777583 0.125699467776 0.214619898709
+4-2 0.08609  0.01428053222417 0.157899467776 0.011358747729
+4-3 0.03220 -0.03960946777583 0.104009467776 0.654406400872
+
+                           Df      Sum Sq     Mean Sq  F value        Pr(>F)    
+as.factor(Classification)   3  1.29790826 0.432636087 11.73368 0.00000022202 ***
+Residuals                 396 14.60103110 0.036871291                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2014), ])
+
+$`as.factor(Classification)`
+       diff               lwr            upr          p adj
+2-1 0.06211 -0.00795066776298 0.132170667763 0.102734989900
+3-1 0.12063  0.05056933223702 0.190690667763 0.000068142439
+4-1 0.14810  0.07803933223702 0.218160667763 0.000000520054
+3-2 0.05852 -0.01154066776298 0.128580667763 0.137844153495
+4-2 0.08599  0.01592933223702 0.156050667763 0.008984931485
+4-3 0.02747 -0.04259066776298 0.097530667763 0.742753535060
+
+                           Df      Sum Sq     Mean Sq  F value        Pr(>F)    
+as.factor(Classification)   3  1.15584596 0.385281987 11.15792 0.00000048091 ***
+Residuals                 396 13.67385020 0.034529925                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2015), ])
+
+$`as.factor(Classification)`
+       diff              lwr             upr          p adj
+2-1 0.05738 -0.0104197227997 0.1251797227997 0.129600413323
+3-1 0.11116  0.0433602772003 0.1789597227997 0.000170016374
+4-1 0.14086  0.0730602772003 0.2086597227997 0.000000845463
+3-2 0.05378 -0.0140197227997 0.1215797227997 0.172874259377
+4-2 0.08348  0.0156802772003 0.1512797227997 0.008696966759
+4-3 0.02970 -0.0380997227997 0.0974997227997 0.671094796229
+
+                           Df      Sum Sq     Mean Sq  F value        Pr(>F)    
+as.factor(Classification)   3  1.02250935 0.340836449 10.76167 0.00000081959 ***
+Residuals                 396 12.54184863 0.031671335                           
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2016), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.05650 -0.00843267382381 0.1214326738238 0.113102825384
+3-1 0.10718  0.04224732617619 0.1721126738238 0.000150629840
+4-1 0.13181  0.06687732617619 0.1967426738238 0.000001583364
+3-2 0.05068 -0.01425267382381 0.1156126738238 0.184633502434
+4-2 0.07531  0.01037732617619 0.1402426738238 0.015524523235
+4-3 0.02463 -0.04030267382381 0.0895626738238 0.761725321283
+
+                           Df      Sum Sq     Mean Sq F value       Pr(>F)    
+as.factor(Classification)   3  0.95613835 0.318712783   10.51 0.0000011504 ***
+Residuals                 396 12.00859193 0.030324727                         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2017), ])
+
+$`as.factor(Classification)`
+       diff              lwr             upr          p adj
+2-1 0.05273 -0.0108072703362 0.1162672703362 0.141993775288
+3-1 0.10277  0.0392327296638 0.1663072703362 0.000215810608
+4-1 0.12737  0.0638327296638 0.1909072703362 0.000002198671
+3-2 0.05004 -0.0134972703362 0.1135772703362 0.178029717593
+4-2 0.07464  0.0111027296638 0.1381772703362 0.013793605365
+4-3 0.02460 -0.0389372703362 0.0881372703362 0.750110223684
+
+                           Df      Sum Sq      Mean Sq  F value       Pr(>F)    
+as.factor(Classification)   3  0.87137636 0.2904587867 10.23079 0.0000016766 ***
+Residuals                 396 11.24269880 0.0283906535                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2018), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.05318 -0.00829772631515 0.1146577263152 0.116493118004
+3-1 0.09790  0.03642227368485 0.1593777263152 0.000281903399
+4-1 0.12256  0.06108227368485 0.1840377263152 0.000002536032
+3-2 0.04472 -0.01675772631515 0.1061977263152 0.239734924220
+4-2 0.06938  0.00790227368485 0.1308577263152 0.019791108383
+4-3 0.02466 -0.03681772631515 0.0861377263152 0.729058403765
+
+                           Df      Sum Sq      Mean Sq  F value       Pr(>F)    
+as.factor(Classification)   3  0.80970209 0.2699006967 10.10838 0.0000019778 ***
+Residuals                 396 10.57346782 0.0267006763                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2019), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.05101 -0.00860989863059 0.1106298986306 0.122972544769
+3-1 0.09576  0.03614010136941 0.1553798986306 0.000243588968
+4-1 0.11729  0.05767010136941 0.1769098986306 0.000003547917
+3-2 0.04475 -0.01486989863059 0.1043698986306 0.214483221025
+4-2 0.06628  0.00666010136941 0.1258998986306 0.022491020628
+4-3 0.02153 -0.03808989863059 0.0811498986306 0.787854642312
+
+                           Df      Sum Sq     Mean Sq  F value       Pr(>F)    
+as.factor(Classification)   3  0.79934026 0.266446753 10.10692 0.0000019817 ***
+Residuals                 396 10.43966958 0.026362802                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2020), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.05057 -0.00867147812373 0.1098114781237 0.124353029806
+3-1 0.09204  0.03279852187627 0.1512814781237 0.000423455716
+4-1 0.11819  0.05894852187627 0.1774314781237 0.000002488005
+3-2 0.04147 -0.01777147812373 0.1007114781237 0.271981688195
+4-2 0.06762  0.00837852187627 0.1268614781237 0.017920842052
+4-3 0.02615 -0.03309147812373 0.0853914781237 0.665697775904
+
+                           Df      Sum Sq      Mean Sq  F value       Pr(>F)    
+as.factor(Classification)   3  0.84110374 0.2803679133 10.09804 0.0000020056 ***
+Residuals                 396 10.99478026 0.0277645966                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2021), ])
+
+$`as.factor(Classification)`
+       diff              lwr             upr          p adj
+2-1 0.05454 -0.0062561091968 0.1153361091968 0.096448844890
+3-1 0.09673  0.0359338908032 0.1575261091968 0.000286088914
+4-1 0.12073  0.0599338908032 0.1815261091968 0.000002801148
+3-2 0.04219 -0.0186061091968 0.1029861091968 0.279453231582
+4-2 0.06619  0.0053938908032 0.1269861091968 0.026699607965
+4-3 0.02400 -0.0367961091968 0.0847961091968 0.738722988799
+
+                           Df      Sum Sq      Mean Sq  F value       Pr(>F)    
+as.factor(Classification)   3  0.85833675 0.2861122500 10.19725 0.0000017542 ***
+Residuals                 396 11.11088044 0.0280577789                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2022), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.05058 -0.01053625672435 0.1116962567243 0.143802437832
+3-1 0.09612  0.03500374327565 0.1572362567243 0.000346994272
+4-1 0.12156  0.06044374327565 0.1826762567243 0.000002689326
+3-2 0.04554 -0.01557625672435 0.1066562567243 0.220256579158
+4-2 0.07098  0.00986374327565 0.1320962567243 0.015332999550
+4-3 0.02544 -0.03567625672435 0.0865562567243 0.705650740269
+
+                           Df     Sum Sq      Mean Sq F value       Pr(>F)    
+as.factor(Classification)   3 0.66378469 0.2212615625 9.34463 0.0000055559 ***
+Residuals                 396 9.37646461 0.0236779409                         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2023), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.04426 -0.01188383425143 0.1004038342514 0.177326996946
+3-1 0.08379  0.02764616574857 0.1399338342514 0.000790028250
+4-1 0.10722  0.05107616574857 0.1633638342514 0.000007308168
+3-2 0.03953 -0.01661383425143 0.0956738342514 0.267032886787
+4-2 0.06296  0.00681616574857 0.1191038342514 0.020898452364
+4-3 0.02343 -0.03271383425143 0.0795738342514 0.703983747365
+
+                           Df     Sum Sq      Mean Sq F value      Pr(>F)    
+as.factor(Classification)   3 0.36945097 0.1231503233 8.22135 0.000025508 ***
+Residuals                 396 5.93181254 0.0149793246                        
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Predicted_Prob ~ as.factor(Classification), data = BP_DF[which(BP_DF$Year_Outcome == 2024), ])
+
+$`as.factor(Classification)`
+       diff               lwr             upr          p adj
+2-1 0.03221 -0.01244562974184 0.0768656297418 0.246714767660
+3-1 0.06276  0.01810437025816 0.1074156297418 0.001842490988
+4-1 0.07961  0.03495437025816 0.1242656297418 0.000033753133
+3-2 0.03055 -0.01410562974184 0.0752056297418 0.291843122456
+4-2 0.04740  0.00274437025816 0.0920556297418 0.032568196161
+4-3 0.01685 -0.02780562974184 0.0615056297418 0.764627538188
+
